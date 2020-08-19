@@ -67,9 +67,10 @@ function checkAnswer(currentLevel)
     sound.play();
     $("body").addClass("game-over");
     setTimeout(function(){$("body").removeClass("game-over")},200);
-    $("h1").text("Game Over, Press Any Key To Restart");
     gamePattern=[];
     started=false;
     level=0;
+    $("h1").text("Game Over, Press Any Key To Restart");
+    
   }
 }

@@ -6,7 +6,6 @@ var level=0;
 
 $(document).on("keydown",function(){
   if(!started){
-      $("h1").text("Level "+level);
       nextSequence();
       started=true;
   }
